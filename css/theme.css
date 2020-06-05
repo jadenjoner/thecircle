@@ -73,6 +73,11 @@ header * {
   transition: 0.2s;
 }
 
+header.down center .left a section {
+  transition: 0s !important;
+  color: white !important;
+}
+
 header.down {
   transition: box-shadow 1s;
   background-color: #111;

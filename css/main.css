@@ -259,8 +259,9 @@ footer center div {
     display: none !important;
   }
 
-  .wave {
+  div.wave {
     border-radius: 0 !important;
+    height: 120px !important;
   }
 
   h1 {
