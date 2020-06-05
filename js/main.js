@@ -11,12 +11,12 @@ function onScroll(){
   if(isNaN(parseInt(y))) y = 0
 
   header = document.getElementsByTagName('header')[0]
-  if(y && !down){
+  if(y>0 && !down){
     header.className += "down"
     document.getElementById('header-logo').src = "img/thecircle-white.svg"
     down = true
   }
-  else if (!y && down){
+  else if (y<=0 && down){
     header.className = ""
     document.getElementById('header-logo').src = "img/thecircle.svg"
     down = false
