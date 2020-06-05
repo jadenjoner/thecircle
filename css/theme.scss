@@ -37,11 +37,11 @@ div.button1{
 
 div.button1:hover{
   cursor: pointer;
-  box-shadow: inset 250px 0 $theme-color-dark;
+  box-shadow: inset 290px 0 $theme-color-dark;
 }
 
 div.button1:active{
-  box-shadow: inset 250px 0 #ffffff90;
+  box-shadow: inset 290px 0 #ffffff90;
   color: $theme-color;
   background-color: $theme-color;
   cursor: pointer;

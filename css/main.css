@@ -124,11 +124,11 @@ header.down center .right a {
 }
 .content .features center {
   margin: auto;
-  width: 1440px;
+  width: 1010px;
 }
 .content .features center section {
   display: inline-block;
-  width: calc(33% - (80px/3));
+  width: calc(33% - (80px/3) - 3px);
   box-sizing: border-box;
   padding: 25px;
 }
@@ -266,6 +266,11 @@ footer center div {
 
   h1 {
     font-size: 40px !important;
+  }
+}
+@media (max-height: 545px) {
+  header:not(.down) {
+    display: none;
   }
 }
 

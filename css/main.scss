@@ -150,12 +150,12 @@ header.down{
 
     center{
       margin: auto;
-      width: 1440px;
+      width: 1010px;
 
       section{
 
         display: inline-block;
-        width: calc(33% - (80px/3));
+        width: calc(33% - (80px/3) - 3px);
         box-sizing: border-box;
         padding: 25px;
         div{
@@ -317,5 +317,11 @@ footer{
   }
   h1{
     font-size: 40px !important;
+  }
+}
+
+@media (max-height: 545px) {
+  header:not(.down){
+    display: none;
   }
 }

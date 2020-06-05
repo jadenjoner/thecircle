@@ -27,11 +27,11 @@ div.button1 {
 
 div.button1:hover {
   cursor: pointer;
-  box-shadow: inset 250px 0 #386dbc;
+  box-shadow: inset 290px 0 #386dbc;
 }
 
 div.button1:active {
-  box-shadow: inset 250px 0 #ffffff90;
+  box-shadow: inset 290px 0 #ffffff90;
   color: #5485CC;
   background-color: #5485CC;
   cursor: pointer;
