@@ -84,7 +84,7 @@ header{
         transition: 0.6s ease;
       }
       section{
-        transition: color 0s, font-size 0.6s ease;
+        transition: color 0s, font-size 0.6s ease !important;
       }
     }
     .right{
