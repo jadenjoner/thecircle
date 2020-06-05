@@ -82,7 +82,7 @@ header.down center {
   color: #eee;
 }
 header.down center .left a img {
-  transform: rotate(360deg) scaleX(-1);
+  transform: rotate(360deg);
 }
 .content .wave {
   box-shadow: 0 0 0 4px #5485CC;
