@@ -66,6 +66,9 @@ header {
 header center .left img {
   transition: 0.6s ease;
 }
+header center .left section {
+  transition: 0s;
+}
 header * {
   transition: 0.2s;
 }
@@ -78,7 +81,7 @@ header.down {
 header.down center {
   color: #eee;
 }
-header.down center .left img {
+header.down center .left a img {
   transform: rotate(360deg);
 }
 .content .wave {
