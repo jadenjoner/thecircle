@@ -225,10 +225,10 @@ header.down center .right a {
 }
 .content .boxes center section section img {
   float: left;
-  width: 20%;
+  width: 30%;
   height: auto;
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .content .boxes center section section section {
   width: 70%;
