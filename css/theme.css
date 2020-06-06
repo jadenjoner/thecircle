@@ -11,7 +11,7 @@ body {
   background: #bbb;
 }
 
-div.button1 {
+button.button1 {
   color: #386dbc;
   border-radius: 5px;
   padding: 10px 20px;
@@ -24,13 +24,13 @@ div.button1 {
   user-select: none;
 }
 
-div.button1:hover {
+button.button1:hover {
   cursor: pointer;
   box-shadow: inset 290px 0 #386dbc;
   color: #bbb;
 }
 
-div.button1:active {
+button.button1:active {
   box-shadow: inset 290px 0 transparent;
   color: #386dbc;
   cursor: pointer;
