@@ -247,36 +247,42 @@ header.down{
 
 
   .boxes{
-    background: #111;
     padding: 40px 0;
     center{
       width: 1010px;
       margin: auto;
 
       section{
-        color: white;
-        position: relative;
         clear: both;
         width: 49%;
         display: inline-block;
         box-sizing: border-box;
-        padding: 20px;
-        margin-bottom: 20px;
-        img{
-          float: left;
-          width: 20%;
-          height: auto;
-        }
-        section{
-          position: absolute;
-          top: 5px;
-          width: 80%;
+        padding: 15px;
 
-          h3{
-            font-size: 24px;
+        section{
+          width: 100%;
+          user-select: none;
+          img{
+            float: left;
+            width: 20%;
+            height: auto;
+            display: inline-block;
+            margin-top: 30px;
+          }
+          section{
+            width: 70%;
+
+            h3{
+              font-size: 28px;
+            }
+            p{
+              font-size: 18px;
+            }
+          }
+          div{
+            clear: both;
           }
         }
-
       }
     }
   }

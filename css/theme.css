@@ -127,6 +127,20 @@ header.down center .left a img {
   background-color: #222;
   color: #eee;
 }
+.content .boxes {
+  background: #111;
+}
+.content .boxes center section {
+  color: #eee;
+}
+.content .boxes center section section {
+  transition: 0.2s;
+  border-radius: 10px;
+}
+.content .boxes center > section > section:hover {
+  background: #ffffff0c;
+}
+
 .footer-wave {
   background-color: #111;
   border-radius: 50% 50% 0 0;

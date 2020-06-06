@@ -206,7 +206,6 @@ header.down center .right a {
   clear: both;
 }
 .content .boxes {
-  background: #111;
   padding: 40px 0;
 }
 .content .boxes center {
@@ -214,27 +213,34 @@ header.down center .right a {
   margin: auto;
 }
 .content .boxes center section {
-  color: white;
-  position: relative;
   clear: both;
   width: 49%;
   display: inline-block;
   box-sizing: border-box;
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 15px;
 }
-.content .boxes center section img {
+.content .boxes center section section {
+  width: 100%;
+  user-select: none;
+}
+.content .boxes center section section img {
   float: left;
   width: 20%;
   height: auto;
+  display: inline-block;
+  margin-top: 30px;
 }
-.content .boxes center section section {
-  position: absolute;
-  top: 5px;
-  width: 80%;
+.content .boxes center section section section {
+  width: 70%;
 }
-.content .boxes center section section h3 {
-  font-size: 24px;
+.content .boxes center section section section h3 {
+  font-size: 28px;
+}
+.content .boxes center section section section p {
+  font-size: 18px;
+}
+.content .boxes center section section div {
+  clear: both;
 }
 .content .section2 {
   background-color: #111;

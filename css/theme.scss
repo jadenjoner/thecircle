@@ -224,6 +224,36 @@ header.down{
       }
     }
   }
+
+
+
+  .boxes{
+    background: $theme-darker;
+    center{
+      section{
+        color: $text-white;
+        section{
+          transition: 0.2s;
+          border-radius: 10px;
+          img{
+          }
+          section{
+            h3{
+            }
+          }
+          div{
+          }
+        }
+      }
+    }
+  }
+  .boxes center > section > section:hover{
+    background: #ffffff0c;
+  }
+
+
+
+
 }
 
 ////////////
