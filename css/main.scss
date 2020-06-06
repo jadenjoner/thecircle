@@ -173,6 +173,9 @@ header.down{
             margin-left: 10px;
           }
         }
+        p{
+          font-size: 18px;
+        }
       }
     }
   }
@@ -199,18 +202,99 @@ header.down{
 
   // Section 1 //
 
+
   .section1{
     background-color: #111;
     color: white;
     center{
       clear: both;
-      width: 1000px;
+      width: 1010px;
+      margin: auto;
+      padding: 30px 0;
+
+      .right{
+        float: right;
+        width: 30%;
+        box-sizing: border-box;
+        padding: 10px;
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+      .left{
+        float: left;
+        width: 70%;
+        box-sizing: border-box;
+        padding: 10px;
+
+        h2{
+          font-size: 40px;
+        }
+        p{
+          font-size: 22px;
+        }
+      }
+      .button1{
+        margin-top: 20px;
+      }
+      div{
+        clear: both;
+      }
+    }
+  }
+
+
+
+  .boxes{
+    background: #111;
+    padding: 40px 0;
+    center{
+      width: 1010px;
+      margin: auto;
+
+      section{
+        color: white;
+        position: relative;
+        clear: both;
+        width: 49%;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 20px;
+        margin-bottom: 20px;
+        img{
+          float: left;
+          width: 20%;
+          height: auto;
+        }
+        section{
+          position: absolute;
+          top: 5px;
+          width: 80%;
+
+          h3{
+            font-size: 24px;
+          }
+        }
+
+      }
+    }
+  }
+
+
+
+  .section2{
+    background-color: #111;
+    color: white;
+    center{
+      clear: both;
+      width: 1010px;
       margin: auto;
       padding: 30px 0;
 
       .left{
         float: left;
-        width: 30%;
+        width: 40%;
         box-sizing: border-box;
         padding: 10px;
         img{
@@ -220,7 +304,7 @@ header.down{
       }
       .right{
         float: right;
-        width: 70%;
+        width: 60%;
         box-sizing: border-box;
         padding: 10px;
 
@@ -281,7 +365,7 @@ footer{
       p{
         clear: both;
         position: relative;
-        left: 23px;
+        left: 19px;
         font-size: 14px;
       }
     }
