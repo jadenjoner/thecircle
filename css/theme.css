@@ -15,7 +15,7 @@ button.button1 {
   color: #386dbc;
   border-radius: 5px;
   padding: 10px 20px;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 25px;
   border: 3px solid #386dbc;
   transition: 0.3s;
@@ -123,7 +123,8 @@ header.down center .left a img {
   position: relative;
   top: -15px;
 }
-.content .section1, .content .section2 {
+.content .section1,
+.content .section2 {
   background-color: #222;
   color: #eee;
 }
@@ -137,8 +138,15 @@ header.down center .left a img {
   transition: 0.2s;
   border-radius: 10px;
 }
+.content .boxes center section section img {
+  transition: 0.2s;
+}
 .content .boxes center > section > section:hover {
   background: #ffffff0c;
+  transform: rotate(3deg);
+}
+.content .boxes center > section > section:hover img {
+  transform: scale(1.14) rotate(-3deg);
 }
 
 .footer-wave {
