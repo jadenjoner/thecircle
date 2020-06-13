@@ -227,6 +227,9 @@ header.down {
         width: 30%;
         box-sizing: border-box;
         padding: 10px;
+        @media (max-width: 800px) {
+          float: none;
+        }
 
         img {
           width: 100%;

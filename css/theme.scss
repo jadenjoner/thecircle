@@ -251,6 +251,14 @@ header.down {
       transform: scale(1.14) rotate(-3deg);
     }
   }
+
+  .boxes center > section:nth-child(even) > section:hover {
+    transform: rotate(-3deg);
+
+    img {
+      transform: scale(1.14) rotate(3deg);
+    }
+  }
 }
 ////////////
 // Footer //
